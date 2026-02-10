@@ -6,4 +6,5 @@ test("testing automation exercise",async({page})=>{
     const loginPage=new LoginPage1(page);
     await loginPage.loginFunctionality();
     await loginPage.login();
+    await loginPage.submit()
 })
